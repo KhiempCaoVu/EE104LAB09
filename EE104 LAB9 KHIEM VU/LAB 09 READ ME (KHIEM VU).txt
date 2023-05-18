@@ -1,0 +1,36 @@
+LAB 09 READ ME KHIEM VU 
+
+Risk Identification Program###################################
+This program takes the loan data in the csv file and dtermine the risk level for each loan types. 
+
+#install pandas // this will help with the computation 
+#make sure the loan data i in csv format so that the program can read the data, the file should have the 
+following collumn: LOAN, MORTDUE, VALUEM YOJ, DEROG, DELINQ, CLAGE, NINQ
+
+#the program will read the data from the hmeq csv using tha pandas library and calculate the default rate, 
+it will then create bins for defaults rate and assigns labels to each bin, these bins are the risk levels. 
+
+# check the newly created csv file, there should be two new collumn added containing the risk level and 
+the reccomendation action such as approved, rejected or conditional aproval. 
+
+
+Trendline Predtion#################################################
+import pandas, matplotlib, plt, stats model 
+
+#load the 6 months dataset into the program 
+applied the sarima model to the 6 months data 
+compare the trendline produced to the actual 12 months data 
+
+
+Dance Challege Game###################################################
+import music, time 
+import pgzero.builtins import actor 
+import randint 
+#make the game multiplayer by make two variables for the scores, calling another actor, adding 
+key imputs as wasd keys, 
+
+$make sure that the images files and the music files are distiniguihed or the game will not run 
+also make sure that the music file is in an ogg foramat instead of mp3 
+
+this game should run on a sepperate window and execute and is playable by 2 people 
+
